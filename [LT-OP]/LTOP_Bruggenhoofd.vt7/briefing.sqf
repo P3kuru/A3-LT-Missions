@@ -104,25 +104,28 @@ player creatediaryrecord ["Diary",[format ["4. Signalen"],format ["
 player creatediaryrecord ["Diary",[format ["3. Logistiek"],format ["
 <font face='PuristaBold' color='#FE8D00'>Bevoorrading</font>
 <br/><font color='#D7DBD5'>• Initieel standaard munitie loadout</font>
-<br/><font color='#D7DBD5'>• Herbevoorrading d.m.v 'burger' dropping</font>
+<br/><font color='#D7DBD5'>• Herbevoorrading d.m.v dropping</font>
+<br/><font color='#D7DBD5'>• Eenheid beschikt over 10 herinzetbare elementen. Herbevoorrading van manschappen geschiedt middels luchtgedekte paradrops op aangewezen dropzones.</font>
 <br/><br/><font face='PuristaBold' color='#FE8D00'>Transport</font>
-<br/><font color='#D7DBD5'>• Te voet verplaatsing, geen voertuigondersteuning</font>
+<br/><font color='#D7DBD5'>• Verplaatsing d.m.v Quadbike</font>
+<br/><br/><font face='PuristaBold' color='#FE8D00'>Ondersteuning</font>
+<br/><font color='#D7DBD5'>• Peloton Saera MLRS Raketartillerie</font>
 "]]];
 
 // Mission (created fourth, appears fourth to last)
 player creatediaryrecord ["Diary",[format ["2. Missie"],format ["
-<font color='#D7DBD5'>We zijn diep achter vijandelijke linies, met als primaire opdracht het verstoren van kritieke vijandelijke capaciteiten en het verzwakken van hun verdedigingsstructuur. Dit maakt de weg vrij voor een doorslaggevende doorbraak naar hun strategische kerngebieden. De vier doelstellingen zijn zorgvuldig geselecteerd op basis van hun directe invloed op de vijandelijke gevechtskracht en hun vermogen om het verloop van het conflict te bepalen. Het uitschakelen van deze doelen zal niet alleen hun operationele capaciteiten ontwrichten, maar ook hun moraal en coördinatie volledig ondermijnen.</font>
+<font color='#D7DBD5'>Terwijl geallieerde formaties in het zuiden een frontale offensieve operatie ontplooien, zal onze eenheid gelijktijdig vanuit het noorden een gecoördineerde flankeerbeweging uitvoeren teneinde de vijandelijke posities te destabiliseren en omsingeling te bewerkstelligen.</font>
 <br/><br/><font face='PuristaBold' color='#FE8D00'>Uitvoering</font>
-<br/><font color='#D7DBD5'>• <marker name='task1'>Neutraliseer vijandelijk AA-platformen</marker></font>
-<br/><font color='#D7DBD5'>• <marker name='task2'>Neutraliseer vijandelijke vuursteunmiddelen</marker></font>
-<br/><font color='#D7DBD5'>• <marker name='task3'>Elimineer HVT: Vladimir Afanasyev</marker></font>
-<br/><font color='#D7DBD5'>• <marker name='task4'>Neutraliseer radiocapaciteit door bezetting radiostation uit te schakelen</marker></font>
+<br/><font color='#D7DBD5'>• De Russen hebben een ZSU-sectie ingezet nabij het dorp <marker name = haavisto>Haavisto</marker>. Schakel alle vijandelijke aanwezigheid uit en vernietig het luchtafweergeschut, eventueel met artilleriebeschietingen.</font>
+<br/><font color='#D7DBD5'>• Drie Russische infanteriegroepen hebben het dorp <marker name = haavisto>Haavisto</marker> bezet. Val het dorp aan en schakel alle vijandelijke aanwezigheid uit.</font>
+<br/><font color='#D7DBD5'>• Het dorp <marker name = aarre>Aarre</marker> is in vijandelijke handen. Schakel alle vijandelijke aanwezigheid daar uit.</font>
+<br/><font color='#D7DBD5'>• Er bevindt zich een gepantserde groep in het dorp <marker name = toipela>Toipela</marker> dat een serieuze bedreiging vormt voor onze posities. Schakel alle vijandelijke aanwezigheid uit en vernietig indien mogelijk alle pantservoertuigen.</font>
 "]]];
 
 // Situation (created last, appears first)
 player creatediaryrecord ["Diary",[format ["1. Situatie"],format ["
 <font face='PuristaBold' color='#A34747'>Vijandelijke Troepen:</font>
-<br/><font color='#D7DBD5'>• +- 130 PAX</font>
+<br/><font color='#D7DBD5'>• +- 200 PAX</font>
 <br/><font color='#D7DBD5'>• Aanvalsgeweren (5.56mm / 7.62mm)</font>
 <br/><font color='#D7DBD5'>• Lichte machinegeweren (5.45mm / 7.62x54R)</font>
 <br/><font color='#D7DBD5'>• 40mm granaatwerpers (GL)</font>
@@ -133,6 +136,7 @@ player creatediaryrecord ["Diary",[format ["1. Situatie"],format ["
 <br/><font color='#D7DBD5'>• M4A4 (5.56mm + Rolafhankelijke 40mm UGL)</font>
 <br/><font color='#D7DBD5'>• SR10 (7.62mm, designated marksman role)</font>
 <br/><font color='#D7DBD5'>• MRAWS (multi-role AT launcher, 84mm HEAT/HE)</font>
+<br/><font color='#D7DBD5'>• 84mm Mortieren (quadbike bewapening)</font>
 <br/><br/><font face='PuristaBold' color='#650080'>Burgers:</font>
 <br/><font color='#D7DBD5'>• Geen civiele elementen geïdentificeerd binnen huidige AO</font>
 "]]];

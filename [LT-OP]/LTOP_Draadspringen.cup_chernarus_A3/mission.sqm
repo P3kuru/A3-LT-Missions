@@ -21,7 +21,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1516;
+		nextID=1522;
 	};
 	class Camera
 	{
@@ -9733,11 +9733,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={229.5,460.88397,15095.5};
-				angles[]={0.087770827,0,6.2538633};
+				position[]={229.5,660.88397,15095.5};
+				angles[]={0.0877726,0,6.2538638};
 			};
 			id=12528;
 			type="ModuleRespawnPosition_F";
+			atlOffset=200;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9813,11 +9814,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1593,442.87131,15089};
-				angles[]={0.02133444,0,0.06656827};
+				position[]={1593,642.87134,15089};
+				angles[]={0.021327924,0,0.066566855};
 			};
 			id=12529;
 			type="ModuleRespawnPosition_F";
+			atlOffset=200.00003;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9893,11 +9895,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1116.5,440.57739,13350.5};
-				angles[]={6.1980557,0,6.1690197};
+				position[]={1116.5,640.57739,13350.5};
+				angles[]={6.1980481,0,6.1690235};
 			};
 			id=12530;
 			type="ModuleRespawnPosition_F";
+			atlOffset=200;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9973,11 +9976,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={202,476.34677,14080.5};
-				angles[]={6.1980567,0,6.2219338};
+				position[]={202,676.3468,14080.5};
+				angles[]={6.1980481,0,6.2219415};
 			};
 			id=12531;
 			type="ModuleRespawnPosition_F";
+			atlOffset=200.00003;
 			class CustomAttributes
 			{
 				class Attribute0
